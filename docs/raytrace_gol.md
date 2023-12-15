@@ -1,7 +1,3 @@
-layout: page
-title: "Ray Tracing a 3D Version of Conway's Game of Life"
-permalink: /raytrace_gol
-
 # Ray Tracing a 3D Version of Conway's Game of Life
 
 Art is not a separate skill from science but part of its output. Here I demonstrate the use of `plotoptix`, a ray-tracing engine with 
