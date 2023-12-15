@@ -12,8 +12,8 @@ and have now transitioned into chem/bioinformatics.
 
 This site is a small collection of 'data science' projects that I found interesting, and I hope you do as well.
 
->> For the things we have to learn before we can do them, we learn by doing them.
->> -Aristotle
+> For the things we have to learn before we can do them, we learn by doing them.
+> -Aristotle
 
 [***Learning Programming with Conway's Game of Life***](./docs/raytrace_gol)
 
