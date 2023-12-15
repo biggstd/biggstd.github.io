@@ -7,7 +7,7 @@ the use of a convolution for each generation (see the `step` function).
 Using only the code in this notebook, we can generate animations like the following:
 
 
-<video src="/biggstd.github.io/assets/gol_HDr.mp4" controls  width="500" >
+<video src="./biggstd.github.io/assets/gol_HDr.mp4" controls  width="500" >
 Your browser does not support the <code>video</code> element.
 </video>
 
