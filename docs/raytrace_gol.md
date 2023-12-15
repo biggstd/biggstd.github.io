@@ -7,9 +7,8 @@ the use of a convolution for each generation (see the `step` function).
 Using only the code in this notebook, we can generate animations like the following:
 
 
-<video src="./assets/gol_HDr.mp4" controls  width="500" >
-Your browser does not support the <code>video</code> element.
-</video>
+<video src="https://biggstd.github.io/docs/assets/gol_HDr.mp4" controls  width="500" >
+Your browser does not support the <code>video</code> element.</video>
 
 
 ***Preamble***
@@ -85,9 +84,7 @@ gol_sim
 
 
 
-<image src="./assets/output_8_1.png"  width="500" >
-output image
-</image>
+<image src="./assets/output_8_1.png"  width="500" >output image</image>
 
     
 
@@ -116,9 +113,7 @@ plt.imshow(text_image, cmap='Greens');
 
 
   
-<image src="./assets/output_10_0.png"  width="500" >
-output image
-</image>
+<image src="./assets/output_10_0.png"  width="500" >output image</image>
 
     
 
