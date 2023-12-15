@@ -87,7 +87,7 @@ gol_sim
 
 <image src="./assets/output_8_1.png"  width="500" >
 output image
-</video>
+</image>
 
     
 
@@ -118,7 +118,7 @@ plt.imshow(text_image, cmap='Greens');
   
 <image src="./assets/output_10_0.png"  width="500" >
 output image
-</video>
+</image>
 
     
 
