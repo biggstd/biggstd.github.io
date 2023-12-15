@@ -23,3 +23,4 @@ and I never was able to polish the course to any degree. That said, the capstone
 some lovely ray-traced images, and the method we use to permute each step of the game using a convolution is a good
 step from a programming point of view to a mathematical and scientific one.
 
+<video src="/assets/gol_HDr.mp4" controls  width="500" >Your browser does not support the <code>video</code> element.</video>
