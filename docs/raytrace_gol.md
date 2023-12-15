@@ -1,3 +1,7 @@
+layout: page
+title: "Ray Tracing a 3D Version of Conway's Game of Life"
+permalink: /raytrace_gol
+
 # Ray Tracing a 3D Version of Conway's Game of Life
 
 Art is not a separate skill from science but part of its output. Here I demonstrate the use of `plotoptix`, a ray-tracing engine with 
@@ -7,7 +11,7 @@ the use of a convolution for each generation (see the `step` function).
 Using only the code in this notebook, we can generate animations like the following:
 
 
-<video src="./biggstd.github.io/assets/gol_HDr.mp4" controls  width="500" >
+<video src="./assets/gol_HDr.mp4" controls  width="500" >
 Your browser does not support the <code>video</code> element.
 </video>
 
@@ -85,8 +89,10 @@ gol_sim
 
 
 
-    
-![png](output_8_1.png)
+<image src="./assets/output_8_1.png"  width="500" >
+output image
+</video>
+
     
 
 
@@ -113,8 +119,11 @@ plt.imshow(text_image, cmap='Greens');
 ```
 
 
-    
-![png](output_10_0.png)
+  
+<image src="./assets/output_10_0.png"  width="500" >
+output image
+</video>
+
     
 
 
@@ -283,9 +292,10 @@ print(optix.encoding_frames(), optix.encoded_frames())
 
 After that is done, we can look at our hard work.
 
-<video src="assets/gol_HD.mp4" controls  width="500" >
+<video src="./assets/gol_HD.mp4" controls  width="500" >
 Your browser does not support the <code>video</code> element.
 </video>
+
 
 
 
