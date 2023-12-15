@@ -1,10 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
----
-
 # Tyler Biggs' Website
 
 Welcome, my name is Tyler. I began programming during my doctoral research in synthetic organic chemistry,
