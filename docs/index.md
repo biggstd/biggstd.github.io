@@ -24,6 +24,6 @@ some lovely ray-traced images, and the method we use to permute each step of the
 step from a programming point of view to a mathematical and scientific one.
 
 
-<video src="./assets/gol_HDr.mp4" controls  width="300" >
+<video src="/assets/gol_HDr.mp4" controls  width="300" >
 Your browser does not support the <code>video</code> element.
 </video>
