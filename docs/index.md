@@ -24,3 +24,10 @@ some lovely ray-traced images, and the method we use to permute each step of the
 step from a programming point of view to a mathematical and scientific one.
 
 <video src="/assets/gol_HDr.mp4" controls  width="500" >Your browser does not support the <code>video</code> element.</video>
+
+
+[***Exploring Stochastic Simulations with a Seminal Paper***](./docs/gillespie)
+
+Here I implement the algorithm described in *Exact Stochastic Simulation of Coupled Chemical Reactions* by Danlel T. Gillespie. It is a seminal paper and well worth the read, a copy can be found online [here](https://www.caam.rice.edu/~cox/gillespie.pdf). Much of the code below borrows notation from the paper. Following the paper, for testing our algorithm I use [exponential decay](https://en.wikipedia.org/wiki/Exponential_decay). Such processes are ubiquitous in nature, so the example is worthwhile. Additionally we can numerically solve many features of interest in this system, and compare those features to our simulation results.
+
+<video src="./assets/gillespie/gillespie.mp4" controls  width="500" >Your browser does not support the <code>video</code> element.</video>
