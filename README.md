@@ -3,13 +3,14 @@
 Welcome, my name is Tyler. I began programming during my doctoral research in synthetic organic chemistry,
 and have now transitioned into chem/bioinformatics.
 
-This site is a small collection of 'data science' projects that I found interesting, and I hope you do as well.
+This site is a small collection of data science themed projects that I found interesting, and I hope you do as well.
 
 > For the things we have to learn before we can do them, we learn by doing them.
 > -Aristotle
 
 
 ## Projects
+
 
 ### [***Learning Programming with Conway's Game of Life***](./docs/raytrace_gol)
 
@@ -28,3 +29,10 @@ step of the game using a convolution is a good step from a programming point of 
 Here I implement the algorithm described in *Exact Stochastic Simulation of Coupled Chemical Reactions* by Danlel T. Gillespie. It is a seminal paper and well worth the read, a copy can be found online [here](https://www.caam.rice.edu/~cox/gillespie.pdf). Much of the code below borrows notation from the paper. Following the paper, for testing our algorithm I use [exponential decay](https://en.wikipedia.org/wiki/Exponential_decay). Such processes are ubiquitous in nature, so the example is worthwhile. Additionally we can numerically solve many features of interest in this system, and compare those features to our simulation results.
 
 <video src="/docs/assets/gillespie/gillespie.mp4" controls  width="500" >Your browser does not support the <code>video</code> element.</video>
+
+
+### [***Reviewing old Quantum Mechanics Notes***](./docs/gillespie)
+
+I was recently visiting my parents for the holidays and found some old class notes from introductory quantum mechanics; a class that began to make sense mostly in retrospect. I have gained some programming skill sense then, so I set out to see if I could numerically solve some simple 1-dimensional systems. It turned out to be sucessfull, and it was fun to use Manim to make the animation shine. There are a number of other versions of this online, but I found this one from dot physics to be the most informative. Even still, for many of the exmaples I found the code does not read anything like the math a student encounters. Which is fine for the program, but not for the student. Here I implement a gaussian wave and its interaction with a barrier in the hopes that it draws a clear link between the math used and the code employed.
+
+<video src="/docs/assets/quantum_tunneling/quantum_tunneling.mp4" controls  width="500" >Your browser does not support the <code>video</code> element.</video>
