@@ -1,9 +1,4 @@
----
-layout: default
-use_math: true
-title: Simple 1D Quantum Tunneling in Python
----
-
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 ```python
 import numpy as np
@@ -32,6 +27,7 @@ config.verbosity = "WARNING"
 
 
 I was visiting my parents for the holidays and found some old class notes from introductory quantum mechanics, a class that only began to make sense in retrospect. Since then, I have gained some programming skills, so I set out to see if I could numerically solve some simple 1-dimensional systems. It turned out to be successful, and using Manim to make the animation shine was fun. There are several other versions of this online, but I found this one from Dot Physics to be the most informative. Even still, for many of the examples I saw, the code reads differently than the math a student encounters, which is fine for the program but not for the student. Here, I implement a Gaussian wave and its interaction with a barrier to draw a clear link between the math used and the code employed.
+
 
 ### Define $x$ and construct $\langle x |$ and $dx$
 
@@ -180,10 +176,8 @@ class Moving_Wavefunction(Scene):
 
                                                                                                                            
 
+<video src="/docs/assets/quantum_tunneling/quantum_tunneling.mp4" controls  width="500" >Your browser does not support the <code>video</code> element.</video>
 
-<video src="manim_output\jupyter\Moving_Wavefunction@2023-12-20@13-00-00.mp4" controls autoplay loop style="max-width: 75%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
 
 
 **Resources and References**
