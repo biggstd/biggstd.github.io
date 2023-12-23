@@ -1,3 +1,10 @@
+---
+layout: default
+use_math: true
+title: Simple 1D Quantum Tunneling in Python
+---
+
+
 ```python
 import numpy as np
 from scipy import interpolate as scp_interpolate
