@@ -1,7 +1,3 @@
----
-title: "Tyler Biggs' Website"
----
-
 Welcome, my name is Tyler, I am a chem/bio-informatics research scientist and statistician. 
 
 I obatined my Ph.D. in synthetic organic chemistry at Washington State University. In my post-doctoral
@@ -12,8 +8,8 @@ My non-science hobbies inlcude houseplants, terrariums and a bit of D&D.
 
 This site is a small collection of data science themed projects that I found interesting, and I hope you do as well.
 
-[LinkedIn](https://www.linkedin.com/in/tylerbiggs/)
-[General Resume](./docs/Biggs_Tyler_Resume_Jan_2024_Public.pdf)
++ [LinkedIn](https://www.linkedin.com/in/tylerbiggs/)  
++ [General Resume](./docs/Biggs_Tyler_Resume_Jan_2024_Public.pdf)
 
 
 ## Projects
