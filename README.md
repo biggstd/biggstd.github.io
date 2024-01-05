@@ -1,4 +1,6 @@
-# Tyler Biggs' Website
+---
+title: "Tyler Biggs' Website"
+---
 
 Welcome, my name is Tyler, I am a chem/bio-informatics research scientist and statistician. 
 
