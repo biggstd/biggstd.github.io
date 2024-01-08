@@ -9,7 +9,7 @@ Welcome, my name is Tyler. I began programming during my doctoral research in sy
 and have now transitioned into chem/bioinformatics.
 
 + [LinkedIn](https://www.linkedin.com/in/tylerbiggs/)  
-+ [General Resume](./docs/Biggs_Tyler_Resume_Jan_2024_Public.pdf)
++ [General Resume](https://github.com/biggstd/biggstd.github.io/blob/master/docs/Biggs_Tyler_Resume_Jan_2024.pdf)
 
 This site is a small collection of 'data science' projects that I found interesting, and I hope you do as well.
 
