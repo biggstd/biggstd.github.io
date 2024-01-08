@@ -1,3 +1,20 @@
+---
+title: "Ray Tracing a 3D Version of Conway's Game of Life"
+---
+
+<meta charset="UTF-8">
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$']]
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
 # Ray Tracing a 3D Version of Conway's Game of Life
 
 Art is not a separate skill from science but part of its output. Here I demonstrate the use of `plotoptix`, a ray-tracing engine with 
@@ -7,7 +24,7 @@ the use of a convolution for each generation (see the `step` function).
 Using only the code in this notebook, we can generate animations like the following:
 
 
-<video src="./assets/gol_HDr.mp4" controls  width="500" >
+<video src="./assets/gol/gol_HDr.mp4" controls  width="500" >
 Your browser does not support the <code>video</code> element.</video>
 
 
@@ -84,7 +101,7 @@ gol_sim
 
 
 
-<image src="./assets/output_8_1.png"  width="500" >output image</image>
+<image src="./assets/gol/output_8_1.png"  width="500" >output image</image>
 
     
 
@@ -113,7 +130,7 @@ plt.imshow(text_image, cmap='Greens');
 
 
   
-<image src="./assets/output_10_0.png"  width="500" >output image</image>
+<image src="./assets/gol/output_10_0.png"  width="500" >output image</image>
 
     
 
@@ -283,7 +300,7 @@ print(optix.encoding_frames(), optix.encoded_frames())
 
 After that is done, we can look at our hard work.
 
-<video src="./assets/gol_HD.mp4" controls  width="500" >
+<video src="./assets/gol/gol_HD.mp4" controls  width="500" >
 Your browser does not support the <code>video</code> element.
 </video>
 

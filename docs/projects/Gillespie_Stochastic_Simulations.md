@@ -1,3 +1,21 @@
+---
+title: "Gillespie Stochastic Simulations"
+layout: post
+---
+
+<meta charset="UTF-8">
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$']]
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
 # Gillespie Stochastic Simulations
 
 Here I implement the algorithm described in *Exact Stochastic Simulation of Coupled Chemical Reactions* by Danlel T. Gillespie. It is a seminal paper and well worth the read, a copy can be found online [here](https://www.caam.rice.edu/~cox/gillespie.pdf). Much of the code below borrows notation from the paper.
